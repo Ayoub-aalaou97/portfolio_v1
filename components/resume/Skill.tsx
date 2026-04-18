@@ -19,8 +19,8 @@ const ResumeSkills = () => {
         {skillCategories.map(cat => (
           
             <button key={cat} onClick={() => setFilter(cat)} 
-              className={`cursor-pointer rounded-sm border-2 bg-[#f1f1f1] p-2 text-sm transition-all duration-150 sm:text-base ${
-                filter === cat ? 'border-indigo-500 bg-indigo-100' : 'border-gray-300'
+              className={`cursor-pointer rounded-sm border-2 bg-[var(--surface-muted)] p-2 text-sm text-[var(--text-primary)] transition-all duration-150 sm:text-base ${
+                filter === cat ? 'border-indigo-500 bg-indigo-100 dark:border-indigo-400 dark:bg-indigo-950/50' : 'border-zinc-300 dark:border-zinc-600'
               }`}
             >
               {cat.charAt(0).toUpperCase() + cat.slice(1)}
@@ -35,7 +35,7 @@ const ResumeSkills = () => {
           
           <div
             key={skill.name}
-            className="skill-item p-1 rounded-sm inline-block border-2 bg-green-50 border-green-500"
+            className="skill-item inline-block rounded-sm border-2 border-green-500 bg-green-50 p-1 dark:border-emerald-500 dark:bg-emerald-950/40"
           >
             <Image src={skill.src} alt={skill.name} width={62} height={62} />
           </div>

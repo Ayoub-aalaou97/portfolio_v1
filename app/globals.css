@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Class-based dark mode (next-themes sets .dark on <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -26,16 +29,38 @@ body {
 } */
 
 
-:root{
+:root {
+  color-scheme: light;
   --primary-font: "IBM Plex Mono", sans-serif;
   --secondary-font: "Archivo", sans-serif;
-  --primary-color:#213547;
   --second-color: #42b883;
+  --page-bg: #fafafa;
+  --text-primary: #213547;
+  --text-muted: #4b5563;
+  --header-border: #f3f4f6;
+  --surface-muted: #f1f1f1;
 }
 
-body{
-  color: var(--primary-color);
+.dark {
+  color-scheme: dark;
+  --page-bg: #0f1419;
+  --text-primary: #e8edf3;
+  --text-muted: #9ca3af;
+  --header-border: #1f2937;
+  --surface-muted: #1a222d;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-primary);
   font-family: var(--primary-font);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Legacy token used in inline theme toggle focus ring */
+:root,
+.dark {
+  --primary-color: var(--text-primary);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -67,6 +92,17 @@ h1,h2,h3,h4,h5,h6 {
   text-decoration-skip-ink: auto;
 }
 
-.green-title{
+.green-title {
   color: var(--second-color);
+}
+
+.dark .gradient-title {
+  background: linear-gradient(
+    90deg,
+    #5fd4a0 0%,
+    #42b883 35%,
+    #8ec5b8 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Archivo, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 const archivo = Archivo({
   subsets: ['latin'],
@@ -29,15 +30,19 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${archivo.variable} ${plexMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-
-        <Header />
-
-        {children}
-
-
+      <body className="min-h-full flex flex-col transition-colors duration-200">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          storageKey="portfolio-theme"
+        >
+          <Header />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
