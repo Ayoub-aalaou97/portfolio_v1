@@ -21,7 +21,7 @@ const ResumeInfo = () => {
           </div>
         </div>
         <div>
-          <h3 className='title-underline-wavy text-2x mt-4'>About me</h3>
+          <h3 className='title-underline mt-4 text-2xl'>About me</h3>
           <p className='pl-4 mt-2'>
             I am proficient in HTML, CSS, Bootstrap, Sass, and JavaScript frameworks like jQuery, while also working with backend technologies such as PHP, C#, and Java. Additionally, I prioritize clean code and testing (using tools like Playwright, Cypress, and Mocha) to ensure high-quality results. I’m a passionate web developer with experience in both frontend and backend technologies, including PHP, JavaScript, C#, Bootstrap, and MySQL. I specialize in object-oriented development, optimizing web applications, and creating user-friendly interfaces
           </p>

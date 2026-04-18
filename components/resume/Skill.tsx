@@ -15,7 +15,7 @@ const ResumeSkills = () => {
   return (
     <div>
 
-      <div  className="filter-skills flex">
+      <div  className="filter-skills flex mt-4">
         {skillCategories.map(cat => (
           
             <button key={cat} onClick={() => setFilter(cat)} 

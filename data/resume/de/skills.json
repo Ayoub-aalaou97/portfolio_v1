@@ -4,6 +4,7 @@
   { "name": "JavaScript", "src": "/img/Javascript.svg", "category": "frontend" },
   { "name": "TypeScript", "src": "/img/TypeScript.svg", "category": "frontend" },
   { "name": "React", "src": "/img/React.svg", "category": "frontend" },
+  { "name": "Angular", "src": "/img/Angular.svg", "category": "frontend" },
   { "name": "Next.js", "src": "/img/Next.js.svg", "category": "frontend" },
   { "name": "Tailwind CSS", "src": "/img/Tailwind.svg", "category": "frontend" },
   { "name": "Bootstrap", "src": "/img/Bootstrap.svg", "category": "frontend" },

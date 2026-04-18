@@ -12,13 +12,15 @@ interface educationInfo{
 const Experience = (expInfo:  educationInfo) => {
   return (
     <div>
-      <div className='container mx-auto w-[756px]'>
-        <div className='flex justify-between'>
-          <div>
-            <h2>{expInfo.school}</h2>
-            <p>{expInfo.desc}</p>
+      <div className='container p-2'>
+        <div className='flex justify-between mt-4'>
+          <div className='w-[80%]'>
+            <h2 className='text-green-600'>{expInfo.school}</h2>
+            <ul className='list-disc pl-5 ml-2 mt-3 w-[80%]'>
+              <li>{expInfo.desc}</li>
+            </ul>
           </div>
-          <div>
+          <div className='flex-col w-[20%]'>
             <p>{expInfo.period}</p>
             <p>{expInfo.location}</p>
           </div>

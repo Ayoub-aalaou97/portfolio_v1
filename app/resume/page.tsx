@@ -10,12 +10,12 @@ const Resume = () => {
 
   return (
     <section>
-      <div className="resume-wrapper container mx-auto w-[756px]">
+      <div className="resume-wrapper container mx-auto w-[1080px]">
 
         <ResumeInfo />
 
       {/* Experience */}
-      <h1 className='title-underline-wavy text-2x mt-4'>Experience</h1>
+      <h1 className='title-underline text-2xl mt-4'>Experience</h1>
       {
         experienceData.map(exp => (          
           <Experience
@@ -31,7 +31,7 @@ const Resume = () => {
       }
 
       {/* Education */}
-      <h1 className='title-underline-wavy text-2x mt-4'>Education</h1>
+      <h1 className='title-underline text-2xl mt-4'>Education</h1>
       {
         educationData.map(edu => (          
           <Education
@@ -47,11 +47,11 @@ const Resume = () => {
 
 
       {/* skills */}
-      <h1 className='title-underline-wavy text-2x mt-4'>Skills</h1>
+      <h1 className='title-underline text-2x mt-4'>Skills</h1>
       <ResumeSkills/>
 
       {/* Hobbys */}
-      <h1 className='title-underline-wavy text-2x mt-4'>Hobbys</h1>
+      <h1 className='title-underline text-2x mt-4'>Hobbys</h1>
       <Hobby/>
 
 

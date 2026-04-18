@@ -6,7 +6,7 @@ import SiteLogo from '@/public/img/logo.png'
 const Header = () => {
   return (
     <header className='border-b-1 border-gray-100'>
-      <div className="header-wrapper container mx-auto w-full px-8 flex justify-between ">
+      <div className="header-wrapper container mx-auto w-[1080px] flex justify-between ">
         <div className="site-logo-container flex items-center">
           <Image
             src={SiteLogo}
