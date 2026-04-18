@@ -9,8 +9,8 @@ import ResumeInfo from '@/components/resume/ResumeInfo';
 const Resume = () => {
 
   return (
-    <section>
-      <div className="resume-wrapper container mx-auto w-[1080px]">
+    <section className="px-4 pb-10 sm:px-6">
+      <div className="resume-wrapper container mx-auto w-full max-w-[1080px]">
 
         <ResumeInfo />
 
@@ -47,11 +47,11 @@ const Resume = () => {
 
 
       {/* skills */}
-      <h1 className='title-underline text-2x mt-4'>Skills</h1>
+      <h1 className='title-underline text-2xl mt-4'>Skills</h1>
       <ResumeSkills/>
 
       {/* Hobbys */}
-      <h1 className='title-underline text-2x mt-4'>Hobbys</h1>
+      <h1 className='title-underline text-2xl mt-4'>Hobbys</h1>
       <Hobby/>
 
 

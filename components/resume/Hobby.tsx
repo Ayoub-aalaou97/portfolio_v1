@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hobby = () => {
   return (
-    <div className='grid grid-cols-4 gap-4 w-[300px] mb-4 mt-4'>
+    <div className='mb-4 mt-4 grid w-full max-w-md grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4'>
       <div className="skill-item p-1 rounded-sm inline-block border-2 bg-[#f1f1f1]">
         <Image src="/img/traveler.svg" alt="Travel" width={62} height={62} />
       </div>

@@ -15,11 +15,11 @@ const ResumeSkills = () => {
   return (
     <div>
 
-      <div  className="filter-skills flex mt-4">
+      <div className="filter-skills mt-4 flex flex-wrap gap-2">
         {skillCategories.map(cat => (
           
             <button key={cat} onClick={() => setFilter(cat)} 
-              className={`bg-[#f1f1f1] cursor-pointer p-2 rounded-sm mr-3 border-2 transition-all duration-150 ${
+              className={`cursor-pointer rounded-sm border-2 bg-[#f1f1f1] p-2 text-sm transition-all duration-150 sm:text-base ${
                 filter === cat ? 'border-indigo-500 bg-indigo-100' : 'border-gray-300'
               }`}
             >
@@ -29,7 +29,7 @@ const ResumeSkills = () => {
         ))}
       </div>
 
-      <div className="skill py-4 grid grid-cols-7 gap-4 w-[600px]">
+      <div className="skill grid w-full max-w-[600px] grid-cols-3 gap-3 py-4 sm:grid-cols-4 sm:gap-4 md:grid-cols-5 lg:grid-cols-7">
 
         {filteredSkills.map((skill) => (
           
