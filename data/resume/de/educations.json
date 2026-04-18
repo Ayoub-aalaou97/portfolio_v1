@@ -1,0 +1,25 @@
+[
+  {
+    "school": "Europaschule Schulzentrum",
+    "desc": "Erfolgreicher Erwerb der Qualifikation als Fachinformatiker für Anwendungsentwicklung",
+    "location": "Bremen",
+    "period": "2023 - 2025",
+    "website": "https://www.szut.de/"
+  },
+  {
+    
+    "school": "Berufsfachschule für angewandte Technologie",
+    "desc": "Diplom als Fachinformatiker für Anwendungsentwicklung",
+    "location": "Marrakesch, Marokko",
+    "period": "2018 - 2020",
+    "website": ""
+  },
+  {
+    
+    "school": "Gymnasium Sidi Abderrahmane",
+    "desc": "Abitur in Bio- und Geowissenschaften",
+    "location": "Marrakesch, Marokko",
+    "period": "2016 - 2017",
+    "website": ""
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+  "company": "Classix Software GmbH",
+  "position": "Softwareentwickler",
+  "location": "Hamburg",
+  "period": "06.10.2025 - Heute",
+  "website": "https://classix.de/",
+  "tasks": [
+    "Entwicklung und Pflege von Angular- und TypeScript-Komponenten für MorphIT, das generische Web-Frontend von Classix",
+    "Verwaltung und Optimierung des Anwendungszustands mit NgRx/RxJS",
+    "Erstellung und Pflege visueller Regressionstests mit BackstopJS",
+    "Analyse und Behebung von Frontend-Fehlern zur Sicherstellung der Anwendungsstabilität"
+    ]
+  }, 
+  {
+    "company": "ePhilos AG",
+    "position": "Fachinformatiker für Anwendungsentwicklung",
+    "location": "Bremen",
+    "period": "08.2023 - 06.2025",
+    "website": "https://ephilos.de/",
+    "tasks": [
+      "Entwicklung von Backend-Logik und Datenbankabfragen mit PHP und MySQL",
+      "Entwicklung und Pflege von Benutzeroberflächen mit ExtJS, Webix.js, HTML5 und CSS3",
+      "Analyse und Auswertung von Logfiles zur Fehlerdiagnose und Systemüberwachung",
+      "Entwicklung und Ausführung automatisierter Unit- und End-to-End-Tests zur Qualitätssicherung"
+    ]
+  },
+  {
+    "company": "H&B Web",
+    "position": "Praktikant als Webentwickler",
+    "location": "Marrakesch, Marokko",
+    "period": "10.2020 - 04.2021",
+    "website": "",
+    "tasks": [
+      "Entwicklung und Umsetzung von PHP-Anwendungen mit objektorientierter Programmierung nach Kundenwünschen",
+      "Erstellung und Pflege von Websites mit dem CMS WordPress",
+      "Verwaltung und Modellierung von Datenbankstrukturen mit MySQL",
+      "Planung und Konzeption von Websystemen mit UML und Merise",
+      "Gestaltung interaktiver Prototypen mit Adobe XD",
+      "Frontend-Entwicklung mit HTML5, CSS3, JavaScript, jQuery, Bootstrap und Sass"
+    ]
+  }
+
+]
