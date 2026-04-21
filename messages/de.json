@@ -1,0 +1,49 @@
+{
+  "Metadata": {
+    "title": "Ayoub Aalaou — Portfolio",
+    "description": "Portfolio und Lebenslauf von Ayoub Aalaou."
+  },
+  "nav": {
+    "home": "Startseite",
+    "resume": "Lebenslauf"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache",
+    "optionDe": "Deutsch",
+    "optionEn": "Englisch"
+  },
+  "HomePage": {
+    "titleHey": "Hey",
+    "titleName": "Ayoub Aalaou",
+    "bioP1": "Ich arbeite sicher mit HTML, CSS, Bootstrap, Sass und JavaScript sowie mit Frameworks wie Angular, React, Next.js und jQuery. Im Backend habe ich Erfahrung mit PHP, C# und MySQL. Sauberer Code und Tests — etwa mit Playwright, Cypress und Mocha — sind für mich selbstverständlich, um stabile Ergebnisse zu gewährleisten.",
+    "bioP2": "Als Softwareentwickler mit Erfahrung im Frontend und Backend konzentriere ich mich auf objektorientierte Entwicklung, leistungsstarke Webanwendungen und benutzerfreundliche Oberflächen. Ich bin offen für neue Herausforderungen und freue mich darauf, meine Fähigkeiten in einem engagierten Team einzubringen.",
+    "ariaDownload": "Lebenslauf herunterladen",
+    "ariaEmail": "E-Mail",
+    "ariaLinkedIn": "LinkedIn",
+    "ariaGitHub": "GitHub",
+    "imageAlt": "Profilfoto"
+  },
+  "ResumePage": {
+    "experience": "Berufserfahrung",
+    "education": "Ausbildung",
+    "skills": "Fähigkeiten",
+    "hobbies": "Hobbys"
+  },
+  "ResumeInfo": {
+    "aboutTitle": "Über mich",
+    "aboutBody": "Ich arbeite sicher mit HTML, CSS, Bootstrap, Sass und JavaScript sowie mit Frameworks wie Angular, React, Next.js und jQuery. Im Backend habe ich Erfahrung mit PHP, C# und MySQL. Sauberer Code und Tests — etwa mit Playwright, Cypress und Mocha — sind für mich selbstverständlich, um stabile Ergebnisse zu gewährleisten.\n\nAls Softwareentwickler mit Erfahrung im Frontend und Backend konzentriere ich mich auf objektorientierte Entwicklung, leistungsstarke Webanwendungen und benutzerfreundliche Oberflächen. Ich bin offen für neue Herausforderungen und freue mich darauf, meine Fähigkeiten in einem engagierten Team einzubringen.",
+    "ariaDownload": "Lebenslauf herunterladen",
+    "ariaEmail": "E-Mail",
+    "ariaLinkedIn": "LinkedIn",
+    "ariaGitHub": "GitHub",
+    "imageAlt": "Lebenslauffoto"
+  },
+  "SkillFilters": {
+    "all": "Alle",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "testing": "Testen",
+    "devops": "DevOps",
+    "tools": "Tools"
+  }
+}

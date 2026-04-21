@@ -1,10 +1,13 @@
-import React from 'react'
-import Link from 'next/link';
-import Image from 'next/image'
-import SiteLogo from '@/public/img/logo.png'
-import { ThemeToggle } from '@/components/ThemeToggle'
+import Image from "next/image";
+import SiteLogo from "@/public/img/logo.png";
+import { Link } from "@/i18n/navigation";
+import { getTranslations } from "next-intl/server";
+import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
-const Header = () => {
+const Header = async () => {
+  const t = await getTranslations("nav");
+
   return (
     <header className="border-b border-[var(--header-border)] bg-[var(--page-bg)]/90 backdrop-blur-sm transition-colors duration-200">
       <div className="header-wrapper container mx-auto flex w-full max-w-[1080px] flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-0">
@@ -16,19 +19,32 @@ const Header = () => {
             alt="Site Logo"
             className="shrink-0"
           />
-          <h1 className='gradient-title truncate text-lg font-medium leading-tight sm:text-2xl sm:self-end sm:leading-[38px]'>Ayoub Aalaou</h1>
+          <p className="gradient-title truncate text-lg font-medium leading-tight sm:text-2xl sm:self-end sm:leading-[38px]">
+            Ayoub Aalaou
+          </p>
         </div>
 
-        <div className="flex shrink-0 flex-wrap items-center gap-4 sm:gap-5">
-          <nav className='flex items-center gap-4 text-sm text-[var(--text-primary)] sm:text-base'>
-            <Link className="underline-offset-4 transition-opacity hover:opacity-80 hover:underline" href="/">Home</Link>
-            <Link className="underline-offset-4 transition-opacity hover:opacity-80 hover:underline" href="/resume">Resume</Link>
+        <div className="flex shrink-0 flex-wrap items-center gap-3 sm:gap-4">
+          <nav className="flex items-center gap-4 text-sm text-[var(--text-primary)] sm:text-base">
+            <Link
+              className="underline-offset-4 transition-opacity hover:opacity-80 hover:underline"
+              href="/"
+            >
+              {t("home")}
+            </Link>
+            <Link
+              className="underline-offset-4 transition-opacity hover:opacity-80 hover:underline"
+              href="/resume"
+            >
+              {t("resume")}
+            </Link>
           </nav>
+          <LanguageSwitcher />
           <ThemeToggle />
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

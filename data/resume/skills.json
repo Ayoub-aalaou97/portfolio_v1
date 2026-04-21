@@ -10,7 +10,6 @@
   { "name": "Bootstrap", "src": "/img/Bootstrap.svg", "category": "frontend" },
   { "name": "Sass", "src": "/img/Sass.svg", "category": "frontend" },
   { "name": "Astro", "src": "/img/Astro.svg", "category": "frontend" },
-
   { "name": "Node.js", "src": "/img/Node.js.svg", "category": "backend" },
   { "name": "PHP", "src": "/img/PHP.svg", "category": "backend" },
   { "name": "Laravel", "src": "/img/Laravel.svg", "category": "backend" },
@@ -19,11 +18,9 @@
   { "name": "MySQL", "src": "/img/MySQL.svg", "category": "backend" },
   { "name": "PostgreSQL", "src": "/img/PostgresSQL.svg", "category": "backend" },
   { "name": "SQL Server", "src": "/img/Microsoft_SQL_Server.svg", "category": "backend" },
-
   { "name": "Mocha", "src": "/img/Mocha.svg", "category": "testing" },
   { "name": "Cypress", "src": "/img/Cypress.svg", "category": "testing" },
   { "name": "Playwright", "src": "/img/Playwrite.svg", "category": "testing" },
-
   { "name": "Docker", "src": "/img/Docker.svg", "category": "devops" },
   { "name": "ESLint", "src": "/img/ESLint.svg", "category": "tools" },
   { "name": "UML", "src": "/img/UML.svg", "category": "tools" }

@@ -2,11 +2,14 @@
 import React from 'react'
 import { useState } from 'react'
 import Image from 'next/image'
-import skills  from '@/data/resume/de/skills.json'
+import { useTranslations } from 'next-intl'
+import skills from '@/data/resume/skills.json'
+
+const skillCategories = ['all', 'frontend', 'backend', 'testing', 'devops', 'tools'] as const
 
 const ResumeSkills = () => {
-  const skillCategories = ['all', 'frontend', 'backend', 'testing', 'devops', 'tools'];
-  const [filter, setFilter] = useState('all');
+  const t = useTranslations('SkillFilters')
+  const [filter, setFilter] = useState<(typeof skillCategories)[number]>('all');
 
   const filteredSkills = filter === 'all'
     ? skills
@@ -18,12 +21,12 @@ const ResumeSkills = () => {
       <div className="filter-skills mt-4 flex flex-wrap gap-2">
         {skillCategories.map(cat => (
           
-            <button key={cat} onClick={() => setFilter(cat)} 
+            <button key={cat} type="button" onClick={() => setFilter(cat)} 
               className={`cursor-pointer rounded-sm border-2 bg-[var(--surface-muted)] p-2 text-sm text-[var(--text-primary)] transition-all duration-150 sm:text-base ${
                 filter === cat ? 'border-indigo-500 bg-indigo-100 dark:border-indigo-400 dark:bg-indigo-950/50' : 'border-zinc-300 dark:border-zinc-600'
               }`}
             >
-              {cat.charAt(0).toUpperCase() + cat.slice(1)}
+              {t(cat)}
             </button>
           
         ))}

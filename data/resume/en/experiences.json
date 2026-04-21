@@ -1,0 +1,43 @@
+[
+  {
+    "company": "Classix Software GmbH",
+    "position": "Software Developer",
+    "location": "Hamburg",
+    "period": "06.10.2025 - Present",
+    "website": "https://classix.de/",
+    "tasks": [
+      "Development and maintenance of Angular and TypeScript components for MorphIT, Classix’s generic web frontend",
+      "Managing and optimizing application state with NgRx/RxJS",
+      "Creating and maintaining visual regression tests with BackstopJS",
+      "Analyzing and fixing frontend issues to ensure application stability"
+    ]
+  },
+  {
+    "company": "ePhilos AG",
+    "position": "IT Specialist for Application Development",
+    "location": "Bremen",
+    "period": "08.2023 - 06.2025",
+    "website": "https://ephilos.de/",
+    "tasks": [
+      "Developing backend logic and database queries with PHP and MySQL",
+      "Building and maintaining user interfaces with ExtJS, Webix.js, HTML5, and CSS3",
+      "Analyzing log files for troubleshooting and system monitoring",
+      "Developing and running automated unit and end-to-end tests for quality assurance"
+    ]
+  },
+  {
+    "company": "H&B Web",
+    "position": "Web Development Intern",
+    "location": "Marrakech, Morocco",
+    "period": "10.2020 - 04.2021",
+    "website": "",
+    "tasks": [
+      "Developing and implementing PHP applications using object-oriented programming to meet client requirements",
+      "Building and maintaining websites with the WordPress CMS",
+      "Managing and modeling database structures with MySQL",
+      "Planning and designing web systems with UML and Merise",
+      "Designing interactive prototypes with Adobe XD",
+      "Frontend development with HTML5, CSS3, JavaScript, jQuery, Bootstrap, and Sass"
+    ]
+  }
+]

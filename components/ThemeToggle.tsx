@@ -1,26 +1,11 @@
 "use client";
 
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import { TbMoon, TbSun } from "react-icons/tb";
+import { useTheme } from "@/components/ThemeProvider";
 
 /** Pill switch: sun or moon sits inside the sliding knob. */
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return (
-      <div
-        className="h-6 w-12 shrink-0 rounded-full bg-zinc-200 dark:bg-zinc-700"
-        aria-hidden
-      />
-    );
-  }
 
   const isDark = resolvedTheme === "dark";
 

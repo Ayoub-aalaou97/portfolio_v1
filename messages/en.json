@@ -1,0 +1,49 @@
+{
+  "Metadata": {
+    "title": "Ayoub Aalaou — Portfolio",
+    "description": "Portfolio and résumé of Ayoub Aalaou."
+  },
+  "nav": {
+    "home": "Home",
+    "resume": "Resume"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "optionDe": "Deutsch",
+    "optionEn": "English"
+  },
+  "HomePage": {
+    "titleHey": "Hey",
+    "titleName": "Ayoub Aalaou",
+    "bioP1": "I'm confident working with HTML, CSS, Bootstrap, Sass, and JavaScript, as well as frameworks like Angular, React, Next.js, and jQuery. On the backend, I bring experience with PHP, C#, and MySQL. Clean code and testing — using tools like Playwright, Cypress, and Mocha — are a natural part of how I work to deliver stable results.",
+    "bioP2": "As a web developer with experience across frontend and backend, I focus on object-oriented development, performant web applications, and user-friendly interfaces. I'm open to new opportunities and excited to bring my skills to a motivated team.",
+    "ariaDownload": "Download résumé",
+    "ariaEmail": "Email",
+    "ariaLinkedIn": "LinkedIn",
+    "ariaGitHub": "GitHub",
+    "imageAlt": "Profile photo"
+  },
+  "ResumePage": {
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "hobbies": "Hobbies"
+  },
+  "ResumeInfo": {
+    "aboutTitle": "About me",
+    "aboutBody": "I'm confident working with HTML, CSS, Bootstrap, Sass, and JavaScript, as well as frameworks like Angular, React, Next.js, and jQuery. On the backend, I bring experience with PHP, C#, and MySQL. Clean code and testing — using tools like Playwright, Cypress, and Mocha — are a natural part of how I work to deliver stable results.\n\nAs a web developer with experience across frontend and backend, I focus on object-oriented development, performant web applications, and user-friendly interfaces. I'm open to new opportunities and excited to bring my skills to a motivated team.",
+    "ariaDownload": "Download résumé",
+    "ariaEmail": "Email",
+    "ariaLinkedIn": "LinkedIn",
+    "ariaGitHub": "GitHub",
+    "imageAlt": "Résumé photo"
+  },
+  "SkillFilters": {
+    "all": "All",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "testing": "Testing",
+    "devops": "DevOps",
+    "tools": "Tools"
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "school": "Europaschule Schulzentrum",
+    "desc": "Successfully completed training as an IT specialist for application development",
+    "location": "Bremen",
+    "period": "2023 - 2025",
+    "website": "https://www.szut.de/"
+  },
+  {
+    "school": "Berufsfachschule für angewandte Technologie",
+    "desc": "Diploma as IT specialist for application development",
+    "location": "Marrakech, Morocco",
+    "period": "2018 - 2020",
+    "website": ""
+  },
+  {
+    "school": "Gymnasium Sidi Abderrahmane",
+    "desc": "High school diploma (Abitur) in life and earth sciences",
+    "location": "Marrakech, Morocco",
+    "period": "2016 - 2017",
+    "website": ""
+  }
+]
